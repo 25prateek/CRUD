@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'curd.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangodb',
-        'USER':'dbadmin',
-        'PASSWORD':'Django@12345',
+        'NAME': 'name of a databse u made',
+        'USER':'username of data base',
+        'PASSWORD':'database_password',
         'HOST':'localhost',
         'PORT':'3306'
     }
